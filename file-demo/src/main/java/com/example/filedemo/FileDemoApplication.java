@@ -12,6 +12,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 public class FileDemoApplication {
 
 	public static void main(String[] args) {
+		System.out.println("hai");
 		SpringApplication.run(FileDemoApplication.class, args);
 	}
 }
